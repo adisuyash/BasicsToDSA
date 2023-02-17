@@ -1,4 +1,4 @@
-// 
+// Swap Values without 3rd Variable
 
 #include<stdio.h>
     
@@ -11,7 +11,7 @@ int main()
     scanf("%d", &b);
     printf("Before Swap: num1=%d, num2=%d\n",a,b);
 
-    // Swapping Values without 3rd Variable
+    // Swapping Values without 3rd Variable Now
     a=a+b;
     b=a-b;
     a=a-b;
