@@ -1,8 +1,8 @@
-// 
+//
 
-#include<stdio.h>
+#include <stdio.h>
 
-static int i=2;
+static int i = 2;
 extern int i;
 
 int main()
@@ -10,10 +10,10 @@ int main()
     // Misc Static / Entern
 
     printf("Misc Static / Entern\n");
-    printf("Output is 2 i.e. %d\n",i); 
-    
+    printf("Output is 2 i.e. %d\n", i);
+
     // Misc Printf
     printf("Misc Printf\n");
-    int a=printf("%d",a,printf("%d",printf("%d",printf("%d",12))));
+    int a = printf("%d", a, printf("%d", printf("%d", printf("%d", 12))));
     return 0;
 }

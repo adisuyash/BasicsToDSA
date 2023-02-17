@@ -1,5 +1,5 @@
 #include <stdio.h>
- 
+
 union Books
 {
     char title[20];
@@ -7,19 +7,19 @@ union Books
     float price;
     int pages;
 };
- 
+
 int main()
 {
     union Books book1;
     printf("Enter Title:");
-    scanf("%s",book1.title);
+    scanf("%s", book1.title);
     printf("Enter Author:");
-    scanf("%s",book1.author);
+    scanf("%s", book1.author);
     printf("Enter Price:");
-    scanf("%f",&book1.price);
+    scanf("%f", &book1.price);
     printf("Enter Pages:");
-    scanf("%d",&book1.pages);
-    
+    scanf("%d", &book1.pages);
+
     // Printing Values
     printf("%s\n", book1.title);
     printf("%s\n", book1.author);
