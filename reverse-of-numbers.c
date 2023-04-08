@@ -4,34 +4,33 @@
     
 int main()
 {
-    int n,rem;
-    printf("Enter number:");
-    scanf("%d",&n);
+    // int n,rem;
+    // printf("Enter number:");
+    // scanf("%d",&n);
 
-    printf("Original number is: %d\n",n);
-    printf("Reversed number is: ");
+    // printf("Original number is: %d\n",n);
+    // printf("Reversed number is: ");
     
-    do{
-        rem=n%10;
-        n=n/10;
-        printf("%d",rem);
-    } while (n>=1);
+    // do{
+    //     rem=n%10;
+    //     n=n/10;
+    //     printf("%d",rem);
+    // } while (n>=1);
 
-    // int number, temp, remainder, reverse = 0;
+    int number, temp, remainder, reverse = 0;
 
-    // printf("Enter a positive integer :");
-    // scanf("%d", &number);
+    printf("Enter a positive number :");
+    scanf("%d", &number);
 
-    // temp = number;
+    temp = number;
 
-    // while (temp > 0)
-    // {
-    //     remainder = temp % 10;
-    //     reverse = reverse * 10 + remainder;
-    //     temp /= 10;
-    // }
+    while (temp > 0)
+    {
+        remainder = temp % 10;
+        reverse = reverse * 10 + remainder;
+        temp = temp / 10;
+    }
 
-
-    // printf("The reverse of %d is %d.", number, reverse);
+    printf("The reverse of %d is %d.", number, reverse);
     return 0;
 }
