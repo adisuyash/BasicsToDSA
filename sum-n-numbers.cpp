@@ -1,4 +1,5 @@
 // Sum of n Natural Numbers
+// Factorial of n
 
 #include <iostream>
 using namespace std;
