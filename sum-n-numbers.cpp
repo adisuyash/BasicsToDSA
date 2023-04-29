@@ -19,11 +19,10 @@ int main()
     // Factorial of n
     for (int j = 1; j <= n; j++)
     {
-        fact *= i;
+        fact *= j;
     }
-    cout << "The Sum of " << n << " natural numbers is " << sum;
+    cout << "The Sum of " << n << " natural numbers is " << sum << endl;
     cout << "The Factorial of " << n << " is " << fact;
-
 
     return 0;
 }
