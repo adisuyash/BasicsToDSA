@@ -1,4 +1,4 @@
-// 
+// Area of triangle in C++
 
 #include<iostream>
 using namespace std;
