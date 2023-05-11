@@ -1,4 +1,4 @@
-// Sum of elements of Array given by user
+// Sum of elements of array which is given by user
 
 #include <iostream>
 
