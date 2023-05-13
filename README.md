@@ -23,5 +23,5 @@ Welcome to the **Logic Building Repo !**
 - Add more problems, solutions or features and create a pull request.
 - Improve Documentation of problems as README.md file in each problem folder.
 
-> Practice, Solve and Contribute to Open-Source❤️
-> Your contributions are greatly appreciated, no matter how big or small they are!<br>
+> Practice, Solve and Contribute to Open-Source❤️<br>
+> Your contributions are greatly appreciated, no matter how big or small they are!
