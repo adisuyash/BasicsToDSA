@@ -3,7 +3,7 @@
 Welcome to the **Logic Building Repo !**
 > A project to foster **Learning and Enhancing** problem solving skills via **Contributions and Collaborations.**
 
-## How to Use this Repository ?
+## For Learning
 
 - ⭐ `Star` this repository to keep track of updates.
 - 🍴 `Fork` & then `Clone` this repository using `git clone https://github.com/adisuyash/logicbuilding.git` in your local machine.
@@ -19,9 +19,9 @@ Welcome to the **Logic Building Repo !**
 
 ### Contributing
 
-- Improve Documentation
 - Raise issues for problems, solutions or anything else.
 - Add more problems, solutions or features and create a pull request.
-> Your contributions are greatly appreciated, no matter how big or small they are!
+- Improve Documentation of problems as README.md file in each problem folder.
 
-> Practice, Solve and Contribute to Open-Source
+> Practice, Solve and Contribute to Open-Source❤️
+> Your contributions are greatly appreciated, no matter how big or small they are!<br>
