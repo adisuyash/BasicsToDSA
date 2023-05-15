@@ -1,4 +1,4 @@
-# Logic Building : Learn and Collaborate 
+# Basics to Data Structures and Algorithms
 
 Welcome to the **Logic Building Repo !**
 > A project to foster **Learning and Enhancing** problem solving skills via **Contributions and Collaborations.**
