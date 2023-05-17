@@ -4,6 +4,51 @@ using namespace std;
 
 int main()
 {
+    int key;
+    int arr[10] = {23, 45, 67, 4, 89, 87, 43, 1, 22, 51};
+
+    // Finding KEY element
+    cout << "Enter key element to find :";
+    cin >> key;
+
+    for (int i = 0; i < 10; i++)
+    {
+        if (key == arr[i])
+        {
+            cout << "Key Element found at index " << i << endl;
+
+            // Elements of array
+            cout << "Elements: ";
+            for (int i = 0; i < 10; i++)
+            {
+                cout << arr[i] << " ";
+            }
+            cout << "\nIndices: ";
+            for (int i = 0; i < 10; i++)
+            {
+                cout << i << "  ";
+            }
+
+            // To terminate the program once key matches!
+            exit(0);
+        }
+    }
+
+    cout << "Key Element not found !";
+
+    // Elements of array
+    cout << "Elements: ";
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << "\nIndices: ";
+    for (int i = 0; i < 10; i++)
+    {
+        cout << i << " ";
+    }
+
+    /*Linear Search in random array
     int sz, key;
 
     cout << "Enter the size of array (5-100):";
@@ -36,7 +81,7 @@ int main()
             exit(0);
         }
     }
-    cout << "Key Element not found !";
+    cout << "Key Element not found !";*/
 
     return 0;
 }
